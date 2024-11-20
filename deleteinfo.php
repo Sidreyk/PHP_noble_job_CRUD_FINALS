@@ -42,7 +42,7 @@ require_once "core/models.php";
             <tr>
                 <td><?php echo $applicantData['applicantID']?></td>
                 <td><?php echo $applicantData['firstName']?></td>
-		<td><?php echo $row['lastName']?></td>
+		<td><?php echo $applicantData['lastName']?></td>
                 <td><?php echo $applicantData['age']?></td>
                 <td><?php echo $applicantData['gender']?></td>
                 <td><?php echo $applicantData['a_birthday']?></td>
